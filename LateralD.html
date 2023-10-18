@@ -1,17 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
-            background-color: #ffd0a2;
-            opacity: 10%;
+        body {
+            background-color: #fa7748;
+            overflow: hidden;
+        }
+
+        #nada {
+            border: orange 3px solid;
+            width: 95px;
+            margin-right: -11px;
+            margin-top: -7px;
+            height: 400px;
+            background-color: #fa7748;
+
+        }
+
+        button {
+            width: 102px;
+            margin-left: -9px;
+            margin-top: -7px;
+            height: 100px;
+            background-color: #ff7f50;
+            border: orange 3px solid;
+            font-size: 16px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #but:hover {
+            transition: 0.3s;
+            opacity: 0.8;
+            background-color: orangered;
         }
     </style>
+
 </head>
+
 <body>
-    
+
+    <a href="historia.html" target="mainFrame"><button id="but"> História </button></a>
+    <a href="historia.html" target="mainFrame"><button id="but"> Principais Movimentos </button></a>
+    <a href="historia.html" target="mainFrame"><button id="but"> Benefícios </button></a>
+    <div id="nada"></div>
+
 </body>
+
 </html>
