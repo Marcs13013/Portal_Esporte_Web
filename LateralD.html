@@ -40,6 +40,54 @@
             color: antiquewhite;
         }
 
+        .rainbow-button {
+            width: 97px;
+            margin-left: -8px;
+            margin-top: -1px;
+            height: 96px;
+            background-color: #ff7f50;
+            border: orange 8px solid;
+            font-size: 13px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: linear-gradient(45deg, rgb(255, 127, 100), rgb(255, 127, 90), rgb(255, 127, 80), rgb(255, 127, 60), rgb(255, 127, 40), rgb(255, 127, 20), rgb(255, 127, 0));
+            background-size: 150%;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: rainbow 10s linear infinite;
+        }
+
+        .rainbow-button:hover {
+            width: 97px;
+            margin-left: -8px;
+            margin-top: -1px;
+            height: 96px;
+            background-color: #ff7f50;
+            border: orange 8px solid;
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background: linear-gradient(45deg, rgb(255, 127, 100), rgb(255, 127, 90), rgb(255, 127, 80), rgb(255, 127, 60), rgb(255, 127, 40), rgb(255, 127, 20), rgb(255, 127, 0));
+            background-size: 150%;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: rainbow 10s linear infinite;
+            text-align: center;
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0%;
+            }
+
+            100% {
+                background-position: 100%;
+            }
+        }
     </style>
 
 </head>
@@ -49,6 +97,7 @@
     <a href="planejamento.html" target="mainFrame"><button id="but"> Como Planejar <br> Um Treino </button></a>
     <a href="exercicios.html" target="mainFrame"><button id="but"> Melhores Exercícios </button></a>
     <a href="dicas.html" target="mainFrame"><button id="but"> Dicas Para Iniciantes </button></a>
+    <a href="atletas.html" target="mainFrame"><button class="rainbow-button"> Principais Atletas Brasileiros  </button></a>
     <div id="nada"></div>
 
 </body>
